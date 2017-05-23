@@ -1,0 +1,23 @@
+.wrapper {
+    width: 900px;
+
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.main-header {
+    height: 75px;
+    width: 900px;
+    outline: 1px solid red;
+    background-color: red;
+}
+.main-logo,
+.main-nav,
+.search,
+.login,
+.basket {
+    float: left;
+
+    box-sizing: border-box;
+}
+

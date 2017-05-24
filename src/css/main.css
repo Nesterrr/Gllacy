@@ -2,22 +2,85 @@
     width: 900px;
 
     margin: 0 auto;
-    outline: 1px solid red;
 }
 
 .main-header {
-    height: 75px;
+    height: 80px;
     width: 900px;
-    outline: 1px solid red;
-    background-color: red;
+    background-color: #849d8f;
 }
+
 .main-logo,
 .main-nav,
 .search,
 .login,
 .basket {
     float: left;
-
+    line-height: 75px;
     box-sizing: border-box;
+
+    color: #fff;
+    font-size: 16px;
+}
+.main-nav a {
+    color: #fff;
+    font-size: 16px;
+
+}
+.main-nav {
+    font-size: 0;
 }
 
+.main-nav a:nth-child(2){
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.main-logo {
+    box-sizing: border-box;
+
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.search {
+    border: 1px solid black;
+
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+
+    border-radius: 30px;
+    background-color: #000;
+}
+.cellphone {
+    position: absolute;
+    margin-left: 700px;
+    top: 80px;
+
+    width: 166px;
+}
+.cellphone span:last-child {
+    font-size: 24px;
+}
+.cellphone span:first-child {
+    font-size: 16px;
+}
+
+.login,
+.basket {
+    width: 100px;
+    height: 32px;
+    box-sizing: border-box;
+    margin-top: 24px;
+
+    line-height: 0;
+
+    border: 1px solid red;
+    border-radius: 32px;
+    background-color: red;
+}
+.basket {
+    margin-left: 10px;
+}

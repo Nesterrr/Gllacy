@@ -3,6 +3,11 @@
 
     margin: 0 auto;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
 
 .main-header {
     height: 80px;
@@ -83,4 +88,68 @@
 }
 .basket {
     margin-left: 10px;
+}
+
+.ice-cream-slider {
+    height: 600px;
+    width: 100%;
+    padding-top:270px;
+    background-color: red;
+    text-align: center;
+}
+.ice-cream-slider h2 {
+    display: inline-block;
+    width: 670px;
+    box-sizing: border-box;
+   // margin: 270px auto;
+    margin-bottom: 0;
+
+    font-size: 60px;
+    text-align: center;
+
+    color: #fff;
+}
+.slide:nth-child(2),
+.slide:nth-child(3) {
+    display: none;
+}
+.ice-cream-slider .btn-slider {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: green;
+    border: none;
+
+    color: #fff;
+}
+
+.banner {
+    display: block;
+    float: left;
+
+    //margin-bottom: 40px;
+    width: 420px;
+    height: 230px;
+
+    background-color: red;
+}
+.banner:nth-child(2) {
+    float: right;
+}
+
+.hits {
+    margin-top: 40px;
+}
+.hit {
+    float: left;
+
+    width: 200px;
+    height: 280px;
+
+    margin-right: 20px;
+
+    background-color: red;
+}
+.hit:nth-child(4) {
+    margin-right: 0;
 }

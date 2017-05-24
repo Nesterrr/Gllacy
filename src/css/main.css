@@ -2,22 +2,154 @@
     width: 900px;
 
     margin: 0 auto;
-    outline: 1px solid red;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
 }
 
 .main-header {
-    height: 75px;
+    height: 80px;
     width: 900px;
-    outline: 1px solid red;
-    background-color: red;
+    background-color: #849d8f;
 }
+
 .main-logo,
 .main-nav,
 .search,
 .login,
 .basket {
     float: left;
-
+    line-height: 75px;
     box-sizing: border-box;
+
+    color: #fff;
+    font-size: 16px;
+}
+.main-nav a {
+    color: #fff;
+    font-size: 16px;
+
+}
+.main-nav {
+    font-size: 0;
 }
 
+.main-nav a:nth-child(2){
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.main-logo {
+    box-sizing: border-box;
+
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.search {
+    border: 1px solid black;
+
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+
+    border-radius: 30px;
+    background-color: #000;
+}
+.cellphone {
+    position: absolute;
+    margin-left: 700px;
+    top: 80px;
+
+    width: 166px;
+}
+.cellphone span:last-child {
+    font-size: 24px;
+}
+.cellphone span:first-child {
+    font-size: 16px;
+}
+
+.login,
+.basket {
+    width: 100px;
+    height: 32px;
+    box-sizing: border-box;
+    margin-top: 24px;
+
+    line-height: 0;
+
+    border: 1px solid red;
+    border-radius: 32px;
+    background-color: red;
+}
+.basket {
+    margin-left: 10px;
+}
+
+.ice-cream-slider {
+    height: 600px;
+    width: 100%;
+    padding-top:270px;
+    background-color: red;
+    text-align: center;
+}
+.ice-cream-slider h2 {
+    display: inline-block;
+    width: 670px;
+    box-sizing: border-box;
+   // margin: 270px auto;
+    margin-bottom: 0;
+
+    font-size: 60px;
+    text-align: center;
+
+    color: #fff;
+}
+.slide:nth-child(2),
+.slide:nth-child(3) {
+    display: none;
+}
+.ice-cream-slider .btn-slider {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: green;
+    border: none;
+
+    color: #fff;
+}
+
+.banner {
+    display: block;
+    float: left;
+
+    //margin-bottom: 40px;
+    width: 420px;
+    height: 230px;
+
+    background-color: red;
+}
+.banner:nth-child(2) {
+    float: right;
+}
+
+.hits {
+    margin-top: 40px;
+}
+.hit {
+    float: left;
+
+    width: 200px;
+    height: 280px;
+
+    margin-right: 20px;
+
+    background-color: red;
+}
+.hit:nth-child(4) {
+    margin-right: 0;
+}
